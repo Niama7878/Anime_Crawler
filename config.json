@@ -1,0 +1,5 @@
+{
+    "thread_count": 5,
+    "ts_folder": "ts_files",
+    "progress_file": "progress.txt"
+}
