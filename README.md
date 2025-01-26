@@ -87,3 +87,7 @@ $ python main.py
 - 请确保你的网络稳定，因为视频片段较大且需要较长时间下载。
 - FFmpeg 命令会将 `.ts` 文件合并，合并过程中可能会花费一些时间。
 - 如果中途下载失败或脚本崩溃，程序会记录进度，下一次运行时会继续下载未完成的片段。
+
+## 使用教程
+
+[YouTube](https://youtu.be/3K6PtbxCHTs) [Bilibili](https://www.bilibili.com/video/BV1FRFNerEyU)
