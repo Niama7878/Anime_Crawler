@@ -110,8 +110,6 @@ class VideoDownloader:
             for request in self.driver.requests:
                 if "m3u8" in request.url:
                     m3u8_urls.append(request.url)  # 添加 m3u8 链接
-
-            print(m3u8_urls)
             
             # 确保至少有两个 m3u8 链接，返回 index 1 的链接（即第二个）  
             if len(m3u8_urls) > 1:
