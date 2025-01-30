@@ -211,6 +211,8 @@ class VideoDownloader:
         # 加载进度文件
         if os.path.exists(progress_file):
             with open(progress_file, 'r') as f:
+                # 读取文件时忽略第一行
+                f.readline()  # 忽略第一行
                 return set(map(int, f.read().splitlines()))  # 返回已完成的文件索引集合
         return set()  # 返回空集合
 
